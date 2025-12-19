@@ -141,7 +141,8 @@ $feed_data = parseRSS($feed_url);
         }
 
         .navbar-inverse {
-            position: relative;
+            position: sticky;
+            top: 0;
             z-index: 1050; /* выше панели настроек */
             background: linear-gradient(
                     to bottom,

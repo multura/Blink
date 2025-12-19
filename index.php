@@ -119,7 +119,8 @@ switch ($current_theme) {
 
         /* Theme: полностью меняем фон навбара на градиент */
         .navbar-inverse {
-            position: relative;
+            position: sticky;
+            top: 0;
             z-index: 1050; /* выше панели настроек */
             background: linear-gradient(
                     to bottom,
@@ -362,7 +363,7 @@ switch ($current_theme) {
 
             <button type="submit" class="btn btn-primary btn-block">Сохранить</button>
         </form>
-        <a href="https://github.com/yourusername/blink"
+        <a href="https://github.com/multura/Blink"
            target="_blank"
            class="settings-footer-link"
            style="color: #ccc; text-decoration: none;">
